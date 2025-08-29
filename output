@@ -1,0 +1,68 @@
+Data shape after cleaning: (32561, 14)
+
+========== Logistic Regression ==========
+Accuracy: 0.8258866881621373
+ROC AUC: 0.7011725577488169
+Confusion Matrix:
+ [[4656  286]
+ [ 848  723]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.85      0.94      0.89      4942
+           1       0.72      0.46      0.56      1571
+
+    accuracy                           0.83      6513
+   macro avg       0.78      0.70      0.73      6513
+weighted avg       0.81      0.83      0.81      6513
+
+
+========== Decision Tree ==========
+Accuracy: 0.8179026562260096
+ROC AUC: 0.7523562310710029
+Confusion Matrix:
+ [[4344  598]
+ [ 588  983]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.88      0.88      0.88      4942
+           1       0.62      0.63      0.62      1571
+
+    accuracy                           0.82      6513
+   macro avg       0.75      0.75      0.75      6513
+weighted avg       0.82      0.82      0.82      6513
+
+
+========== Random Forest ==========
+Accuracy: 0.8539843390142792
+ROC AUC: 0.7813423104575778
+Confusion Matrix:
+ [[4555  387]
+ [ 564 1007]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.89      0.92      0.91      4942
+           1       0.72      0.64      0.68      1571
+
+    accuracy                           0.85      6513
+   macro avg       0.81      0.78      0.79      6513
+weighted avg       0.85      0.85      0.85      6513
+
+
+========== XGBoost ==========
+Accuracy: 0.8762475049900199
+ROC AUC: 0.8081698047445852
+Confusion Matrix:
+ [[4644  298]
+ [ 508 1063]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.90      0.94      0.92      4942
+           1       0.78      0.68      0.73      1571
+
+    accuracy                           0.88      6513
+   macro avg       0.84      0.81      0.82      6513
+weighted avg       0.87      0.88      0.87      6513
