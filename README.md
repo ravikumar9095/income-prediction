@@ -2,7 +2,7 @@ Income Prediction using Machine Learning
 
 📌 Project Overview
 
-This project predicts whether an individual’s income exceeds \$50K/year based on demographic and employment attributes. The dataset used is the **Adult Income Dataset (Census Income Dataset).
+This project predicts whether an individual’s income exceeds \$50K/year based on demographic and employment attributes. The dataset used is the Adult Income Dataset (Census Income Dataset).
 
 The goal is to build and evaluate multiple machine learning models, compare their performance, and determine the most accurate model for income classification.
 
